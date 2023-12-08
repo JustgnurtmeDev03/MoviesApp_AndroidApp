@@ -56,14 +56,13 @@
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Các phim đặc sắc nhất"
-                android:textColor="@color/yellow"
-                android:textSize="18dp"
-                android:textStyle="bold"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="12dp"
-                />
+                android:text="Phim mất phí sắp phát hành"
+                android:textColor="@color/yellow"
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -138,7 +137,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="12dp"
-                android:text="Phim sắp được phát hành"
+                android:text="Các phim đặc sắc nhất"
                 android:textColor="@color/yellow"
                 android:textSize="18dp"
                 android:textStyle="bold" />

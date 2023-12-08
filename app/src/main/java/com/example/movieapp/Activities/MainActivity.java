@@ -37,17 +37,18 @@ private Handler slideHandler= new Handler();
     private void banners() {
         // Khởi tạo danh sách các hình ảnh trong slider
         List<SliderItems> sliderItems = new ArrayList<>();
-        sliderItems.add(new SliderItems(R.drawable.wide));
-        sliderItems.add(new SliderItems(R.drawable.wide1));
-        sliderItems.add(new SliderItems(R.drawable.wide3));
-        sliderItems.add(new SliderItems(R.drawable.wide4));
+        sliderItems.add(new SliderItems(R.drawable.f));
+        sliderItems.add(new SliderItems(R.drawable.f1));
+        sliderItems.add(new SliderItems(R.drawable.f2));
+        sliderItems.add(new SliderItems(R.drawable.f3));
+        sliderItems.add(new SliderItems(R.drawable.f4));
 
      // Thiết lập Adapter cho ViewPager2
     viewPager2.setAdapter(new SliderAdapters(sliderItems, viewPager2));
 
     // Cấu hình các thuộc tính cho ViewPager2
     viewPager2.setClipToPadding(false);
-    viewPager2.setOffscreenPageLimit(4);
+    viewPager2.setOffscreenPageLimit(5);
     viewPager2.getChildAt(0).setOverScrollMode(RecyclerView.OVER_SCROLL_ALWAYS);
 
         //Tạo và thiết lập đối tượng chuyển trang
